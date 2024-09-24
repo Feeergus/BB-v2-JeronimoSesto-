@@ -8,9 +8,9 @@ export class Game extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image('paddle', '../public/assets/brick.png');
-        this.load.image('ball', '../public/assets/bola.png');
-        this.load.image('block', '../public/assets/brick.png');
+        this.load.image('paddle', '/public/assets/brick.png');
+        this.load.image('ball', '/public/assets/bola.png');
+        this.load.image('block', '/public/assets/brick.png');
     }
 
     create() {
